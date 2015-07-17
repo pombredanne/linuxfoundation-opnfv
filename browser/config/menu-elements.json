@@ -1,0 +1,41 @@
+{
+    "menu":{
+	"scm": [
+            "companies",
+            "contributors",
+            "domains",
+            "repos"
+	],
+	"mls": [
+            "companies",
+            "contributors",
+            "domains",
+            "repos"
+	],
+	"qaforums": [
+            "contributors"
+	],
+	"irc": [
+            "contributors",
+            "repos"
+	],
+	"studies": [
+            "demographics"
+	],
+	"its": [
+            "companies",
+            "contributors",
+            "domains",
+            "repos",
+            "states"
+	],
+	"scr": [
+            "companies",
+            "repos"
+	],
+	"wiki": [],
+	"project_map-OFF": [],
+    },
+    "releases":[],
+    "threads_site":"https://lists.opnfv.org/"
+}

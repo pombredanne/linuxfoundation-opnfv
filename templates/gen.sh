@@ -30,18 +30,19 @@ python build_panel.py --template body.template --content common/list-of-filters.
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its-domains > ../browser/its-domains.html
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its-projects > ../browser/its-projects.html
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its-repos > ../browser/its-repos.html
-python apply_template.py --template body.template --content its/states.tmpl > ../browser/its-states.html
+#python apply_template.py --template body.template --content its/states.tmpl > ../browser/its-states.html
+python apply_template.py --template body.template --content its/states-jira.tmpl > ../browser/its-states.html
 
 
 # its_1
-python apply_template.py --template body.template --content its_1/overview.tmpl > ../browser/its_1.html
-python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its_1-companies > ../browser/its_1-companies.html
-python apply_template.py --template body.template --content its_1/contributors.tmpl > ../browser/its_1-contributors.html
-python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its_1-countries > ../browser/its_1-countries.html
-python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its_1-domains > ../browser/its_1-domains.html
-python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its_1-projects > ../browser/its_1-projects.html
-python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its_1-repos > ../browser/its_1-repos.html
-python apply_template.py --template body.template --content its_1/states.tmpl > ../browser/its_1-states.html
+#python apply_template.py --template body.template --content its_1/overview.tmpl > ../browser/its_1.html
+#python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its_1-companies > ../browser/its_1-companies.html
+#python apply_template.py --template body.template --content its_1/contributors.tmpl > ../browser/its_1-contributors.html
+#python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its_1-countries > ../browser/its_1-countries.html
+#python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its_1-domains > ../browser/its_1-domains.html
+#python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its_1-projects > ../browser/its_1-projects.html
+#python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its_1-repos > ../browser/its_1-repos.html
+#python apply_template.py --template body.template --content its_1/states.tmpl > ../browser/its_1-states.html
 
 # its_1 - maniphest
 #python apply_template.py --template body.template --content maniphest/overview.tmpl > ../browser/maniphest.html
