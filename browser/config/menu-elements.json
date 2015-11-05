@@ -34,7 +34,10 @@
             "repos"
 	],
 	"wiki": [],
-	"project_map-OFF": []
+	"project_map-OFF": [],
+    "extra": [
+        ["Dashboard for git repos (PoC)","https://6d8316ac574a2a54a69bb17a7d161ed6.us-east-1.aws.found.io/#/dashboard/OPNFV-Git-Activity"]
+    ]
     },
     "releases":[],
     "threads_site":"https://lists.opnfv.org/"
